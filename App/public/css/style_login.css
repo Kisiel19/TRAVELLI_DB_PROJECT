@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient( to right, #068754, #AFD767);
+}
+.uf-form-signin {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    margin: auto;
+}
+.link
+{
+    color: #068754;
+    text-decoration: none;
+}
+.form-control:focus
+{
+    border-color: #AFD767 !important;
+}

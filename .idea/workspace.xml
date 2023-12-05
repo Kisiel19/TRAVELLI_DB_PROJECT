@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="341adcca-e643-4780-b242-9d4a5c49e7ca" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/App/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/App/vendor/composer" />
+      <path value="$PROJECT_DIR$/App/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/App/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/App/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/App/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/App/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/webpack-encore-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2YU87mUzNbmAn8IdRdR3LIUpx04" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kryst/Documents/Aplikacja/App/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fr.adrienbrault.idea.symfony2plugin.ui.TwigSettingsForm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kryst\Documents\Aplikacja\Docker\docker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kryst\Documents\Aplikacja\App\public" />
+      <recent name="C:\Users\kryst\Documents\Aplikacja\App" />
+      <recent name="C:\Users\kryst\Documents\Aplikacja\Docker" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="341adcca-e643-4780-b242-9d4a5c49e7ca" name="Changes" comment="" />
+      <created>1700568634121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700568634121</updated>
+      <workItem from="1700568635099" duration="7263000" />
+      <workItem from="1700585973756" duration="12224000" />
+      <workItem from="1700645862559" duration="14444000" />
+      <workItem from="1700743547164" duration="8591000" />
+      <workItem from="1700754976239" duration="5172000" />
+      <workItem from="1700823828410" duration="2101000" />
+      <workItem from="1701270216002" duration="8680000" />
+      <workItem from="1701329862846" duration="12306000" />
+      <workItem from="1701433004443" duration="12362000" />
+      <workItem from="1701518719258" duration="2721000" />
+      <workItem from="1701787204590" duration="471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
