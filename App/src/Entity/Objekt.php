@@ -5,6 +5,7 @@ namespace App\Entity;
 use App\Repository\ObjektRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 #[ORM\Entity(repositoryClass: ObjektRepository::class)]
 class Objekt
@@ -20,7 +21,7 @@ class Objekt
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $link = null;
 
-    #[ORM\Column(length: 2000, nullable: true)]
+    #[ORM\Column(length: 8000, nullable: true)]
     private ?string $description = null;
 
     #[ORM\Column(nullable: true)]
@@ -77,6 +78,24 @@ class Objekt
     #[ORM\Column(type: Types::TIME_MUTABLE, nullable: true)]
     private ?\DateTimeInterface $close_hour_sunday = null;
 
+    #[ORM\Column]
+    private ?bool $published = null;
+
+    #[ORM\Column(type: Types::DATE_MUTABLE)]
+    private ?\DateTimeInterface $add_date = null;
+
+    #[ORM\Column(type: Types::DATE_MUTABLE)]
+    private ?\DateTimeInterface $update_date = null;
+
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $image = null;
+
+    public function __construct()
+    {
+        $this->add_date= new \DateTime("now");
+        $this->update_date=new \DateTime('now');
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -90,6 +109,9 @@ class Objekt
     public function setName(string $name): static
     {
         $this->name = $name;
+        if($name){
+            $this->update_date=new \DateTime('now');
+        }
 
         return $this;
     }
@@ -102,7 +124,9 @@ class Objekt
     public function setLink(?string $link): static
     {
         $this->link = $link;
-
+        if($link){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -114,7 +138,9 @@ class Objekt
     public function setDescription(?string $description): static
     {
         $this->description = $description;
-
+        if($description){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -126,6 +152,9 @@ class Objekt
     public function setNumber(?int $number): static
     {
         $this->number = $number;
+        if($number){
+            $this->update_date=new \DateTime('now');
+        }
 
         return $this;
     }
@@ -150,6 +179,9 @@ class Objekt
     public function setLongitude(float $longitude): static
     {
         $this->longitude = $longitude;
+        if($longitude){
+            $this->update_date=new \DateTime('now');
+        }
 
         return $this;
     }
@@ -162,6 +194,9 @@ class Objekt
     public function setLatitude(float $latitude): static
     {
         $this->latitude = $latitude;
+        if($latitude){
+            $this->update_date=new \DateTime('now');
+        }
 
         return $this;
     }
@@ -174,7 +209,9 @@ class Objekt
     public function setOpenHourMonday(?\DateTimeInterface $open_hour_monday): static
     {
         $this->open_hour_monday = $open_hour_monday;
-
+        if($open_hour_monday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -186,6 +223,9 @@ class Objekt
     public function setCloseHourMonday(?\DateTimeInterface $close_hour_monday): static
     {
         $this->close_hour_monday = $close_hour_monday;
+        if($close_hour_monday){
+            $this->update_date=new \DateTime('now');
+        }
 
         return $this;
     }
@@ -198,7 +238,9 @@ class Objekt
     public function setOpenHourTuesday(?\DateTimeInterface $open_hour_tuesday): static
     {
         $this->open_hour_tuesday = $open_hour_tuesday;
-
+        if($open_hour_tuesday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -210,7 +252,9 @@ class Objekt
     public function setCloseHourTuesday(?\DateTimeInterface $close_hour_tuesday): static
     {
         $this->close_hour_tuesday = $close_hour_tuesday;
-
+        if($close_hour_tuesday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -222,7 +266,9 @@ class Objekt
     public function setOpenHourWednesday(?\DateTimeInterface $open_hour_wednesday): static
     {
         $this->open_hour_wednesday = $open_hour_wednesday;
-
+        if($open_hour_wednesday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -234,7 +280,9 @@ class Objekt
     public function setCloseHourWednesday(?\DateTimeInterface $close_hour_wednesday): static
     {
         $this->close_hour_wednesday = $close_hour_wednesday;
-
+        if($close_hour_wednesday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -246,7 +294,9 @@ class Objekt
     public function setOpenHourThursday(?\DateTimeInterface $open_hour_thursday): static
     {
         $this->open_hour_thursday = $open_hour_thursday;
-
+        if($open_hour_thursday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -258,7 +308,9 @@ class Objekt
     public function setCloseHourThursday(?\DateTimeInterface $close_hour_thursday): static
     {
         $this->close_hour_thursday = $close_hour_thursday;
-
+        if($close_hour_thursday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -270,7 +322,9 @@ class Objekt
     public function setOpenHourFriday(?\DateTimeInterface $open_hour_friday): static
     {
         $this->open_hour_friday = $open_hour_friday;
-
+        if( $open_hour_friday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -282,7 +336,9 @@ class Objekt
     public function setCloseHourFriday(?\DateTimeInterface $close_hour_friday): static
     {
         $this->close_hour_friday = $close_hour_friday;
-
+        if( $close_hour_friday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -294,7 +350,9 @@ class Objekt
     public function setOpenHourSaturday(?\DateTimeInterface $open_hour_saturday): static
     {
         $this->open_hour_saturday = $open_hour_saturday;
-
+        if( $open_hour_saturday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -306,7 +364,9 @@ class Objekt
     public function setCloseHourSaturday(?\DateTimeInterface $close_hour_saturday): static
     {
         $this->close_hour_saturday = $close_hour_saturday;
-
+        if( $close_hour_saturday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -318,7 +378,9 @@ class Objekt
     public function setOpenHourSunday(?\DateTimeInterface $open_hour_sunday): static
     {
         $this->open_hour_sunday = $open_hour_sunday;
-
+        if($open_hour_sunday){
+            $this->update_date=new \DateTime('now');
+        }
         return $this;
     }
 
@@ -330,6 +392,59 @@ class Objekt
     public function setCloseHourSunday(?\DateTimeInterface $close_hour_sunday): static
     {
         $this->close_hour_sunday = $close_hour_sunday;
+        if( $close_hour_sunday){
+            $this->update_date=new \DateTime('now');
+        }
+        return $this;
+    }
+
+    public function isPublished(): ?bool
+    {
+        return $this->published;
+    }
+
+    public function setPublished(bool $published): static
+    {
+        $this->published = $published;
+
+        return $this;
+    }
+
+    public function getAddDate(): ?\DateTimeInterface
+    {
+        return $this->add_date;
+    }
+
+    public function setAddDate(\DateTimeInterface $add_date): static
+    {
+        $this->add_date = $add_date;
+
+        return $this;
+    }
+
+    public function getUpdateDate(): ?\DateTimeInterface
+    {
+        return $this->update_date;
+    }
+
+    public function setUpdateDate(\DateTimeInterface $update_date): static
+    {
+        $this->update_date = $update_date;
+
+        return $this;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): static
+    {
+        $this->image = $image;
+        if($image){
+            $this->update_date=new \DateTime('now');
+        }
 
         return $this;
     }

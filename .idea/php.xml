@@ -88,7 +88,12 @@
       <path value="$PROJECT_DIR$/App/vendor/symfony/doctrine-bridge" />
       <path value="$PROJECT_DIR$/App/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/App/vendor/symfony/web-profiler-bundle" />
-      <path value="$PROJECT_DIR$/App/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/twig/string-extra" />
+      <path value="$PROJECT_DIR$/App/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/App/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/App/vendor/symfony/polyfill-intl-idn" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
