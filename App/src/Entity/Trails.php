@@ -41,6 +41,9 @@ class Trails
     #[ORM\Column]
     private ?float $distance = null;
 
+    #[ORM\Column]
+    private ?bool $published = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -153,4 +156,17 @@ class Trails
 
         return $this;
     }
+
+    public function isPublished(): ?bool
+    {
+        return $this->published;
+    }
+
+    public function setPublished(bool $published): static
+    {
+        $this->published = $published;
+
+        return $this;
+    }
+
 }
