@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="341adcca-e643-4780-b242-9d4a5c49e7ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/App/migrations/Version20231211190121.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/Version20231211190313.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/registration/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9188d9b-4f9f-461c-ac5f-f9b1d163e8a1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a9188d9b-4f9f-461c-ac5f-f9b1d163e8a1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9188d9b-4f9f-461c-ac5f-f9b1d163e8a1/storage_v2/_src_/schema/myDatabase.Rxchhg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a9188d9b-4f9f-461c-ac5f-f9b1d163e8a1/storage_v2/_src_/schema/myDatabase.Rxchhg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -183,7 +188,7 @@
       <workItem from="1702213249952" duration="621000" />
       <workItem from="1702310978626" duration="11368000" />
       <workItem from="1702401118293" duration="1112000" />
-      <workItem from="1702566931451" duration="8101000" />
+      <workItem from="1702566931451" duration="8411000" />
     </task>
     <servers />
   </component>
